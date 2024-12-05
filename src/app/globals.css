@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.container {
+  /* background-color: rebeccapurple; */
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.light {
+  background-color: rgb(160, 157, 160);
+  color: #111;
+}
+.dark {
+  background-color: #111;
+  color: #bbb;
+}
+.theme {
+  transition: 1s all ease;
+}

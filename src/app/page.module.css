@@ -1,0 +1,19 @@
+.title {
+  background: linear-gradient(to bottom, #11e04f, #bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heroImage {
+  animation: move 2s 3 ease alternate;
+}
+@keyframes move {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
